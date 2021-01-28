@@ -1,0 +1,100 @@
+.profile{
+    margin: 100px auto;
+    width: 76.3%;
+    
+}
+
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.btn--edit{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #0B2E4E;
+    color: white;
+    align-self: flex-end;
+    width: 15%;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.profile__name, .profile__email,
+.profile__edad, .profile__clases{
+    line-height: 50px;
+    color: #0B2E4E;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+.clases{
+    background: linear-gradient(to right, #F5FAFE, #F8F8F8, #F9F9F9,#F9F9F9,#EBEEEF);
+    height: auto;
+    padding-top: 25px;
+}
+
+.clases__container{
+    display: flex;
+    height: auto;
+    margin: 30px auto;
+    width: 76.4%;
+}
+
+.clases__profile{
+   
+    color: #0B2E4E;
+    font-family: 'Be Vietnam', sans-serif;
+    line-height: 2rem;
+    width: 60%;
+}
+.clases__profile--delete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 40%;
+   
+    margin: 0 auto;
+}
+
+.btn--profile{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #f95964;
+    color: white;
+    width: auto;
+    border-radius: 0.2vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.message{
+    background-color: #fff;
+    color: #0B2E4E;
+    font-size: 1.3rem;
+    font-family:'Be Vietnam', sans-serif; 
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px){
+    .clases__profile{
+        width: 100%;
+    }
+}

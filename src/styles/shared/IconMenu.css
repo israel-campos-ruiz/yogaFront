@@ -1,0 +1,35 @@
+.icon{
+  margin-top: 1rem;
+}
+.bar1{
+  width: 35px;
+  height: 5px;
+  background-color: #0B2E4E;
+  margin:6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.bar2{
+  width: 35px;
+  height: 5px;
+}
+.bar3, .x1, .x2 {
+    width: 35px;
+    height: 5px;
+    background-color: #0B2E4E;
+    margin: 6px 0;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }  
+  .x1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+   .bar2 {opacity: 0;}
+  
+   .x2 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }

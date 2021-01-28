@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.login{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.login__content{
+    height: auto;
+    border-radius: 5px;
+    background-clip: padding-box;
+    z-index: 1;
+}
+.login__title{
+    color: #0B2E4E;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.login__subtitle{
+    color: #f95964;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mt {
+    margin-top: 37px;
+}

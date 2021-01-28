@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <CreateAccount /> Debe de crear un snapshot del componente 1`] = `
+<Fragment>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container--input undefined"
+    >
+      <input
+        className="form__input undefined"
+        name="nombre"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="ingresa tu nombre"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form__container--input undefined undefined "
+    >
+      <input
+        className="form__input undefined"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="ingresa tu email"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form__container--input undefined"
+    >
+      <input
+        className="form__input undefined"
+        name="edad"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="ingresa tu edad"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form__container--input undefined"
+    >
+      <input
+        className="form__input undefined"
+        name="telefono"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="ingresa tu teléfono"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form__container--input undefined"
+    >
+      <input
+        className="form__input undefined"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="ingresa tu contraseña"
+        type="password"
+        value=""
+      />
+      <i
+        className="fa fa-eye-slash"
+        onClick={[Function]}
+      />
+    </div>
+    <button
+      className="btn--submit--create"
+      type="submit"
+    >
+      Crear cuenta
+    </button>
+    <p
+      className="btn--link link"
+      type="button"
+    >
+      ¿Ya tienes una cuenta? ¡ingresa ahora!
+    </p>
+    <NavLink
+      className="link"
+      exact={true}
+      to="/inicio"
+    >
+      Regresa al inicio
+    </NavLink>
+  </form>
+</Fragment>
+`;

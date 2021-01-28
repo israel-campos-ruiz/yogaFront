@@ -1,0 +1,38 @@
+.opinions{
+  background: linear-gradient(to right,#D4D5D9 15%,#F9F9FB,#FFFFFF);
+  width: 100%;
+}
+
+.opinions--flex{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.opinions__title{
+  padding-top: 50px;
+  line-height: 1.4;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
+  color: #0B2E4E;
+}
+.opinions__text{
+    text-align: center;
+    font-family: 'Be vietnam', sans-serif;
+    font-size: 1.2rem;
+    
+    
+}
+
+@media screen and ( max-width: 650px) {
+  .opinions__text{
+    text-align: center;
+    font-family: 'Be vietnam', sans-serif;
+    font-size: 1rem;
+   
+   
+    
+}
+}

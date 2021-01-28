@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el componente iniciar sesion Debe de tomar un snapshot del  componente iniciar sesion 1`] = `
+<Fragment>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container--input"
+    >
+      <input
+        className="form__input"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="email"
+        value=""
+      />
+    </div>
+    <div
+      className="form__container--input"
+    >
+      <input
+        className="form__input"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="password"
+        value=""
+      />
+    </div>
+    <button
+      className="btn--submit--create"
+      type="submit"
+    >
+      Iniciar sesion
+    </button>
+    <p
+      className="btn--link link"
+    >
+      ¿No tienes una cuenta? ¡Registrate ahora!
+    </p>
+    <NavLink
+      className="link"
+      exact={true}
+      to="/inicio"
+    >
+      Regresa al inicio
+    </NavLink>
+  </form>
+</Fragment>
+`;

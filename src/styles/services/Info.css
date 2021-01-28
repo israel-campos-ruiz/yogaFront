@@ -1,0 +1,22 @@
+.info{
+    background-color: #0B2E4E;
+    height: auto;
+    width: 100%;
+    color: #f2f2f2;
+}
+
+.info__contents{
+    width: 75%;
+    margin: auto;
+    padding-top: 44px;
+}
+.info__description{
+    font-family: 'Be Vietnam', sans-serif;
+    padding-bottom: 2rem;
+}
+.info__title{ 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+}

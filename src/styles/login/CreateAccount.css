@@ -1,0 +1,87 @@
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form__container--input{
+    width: 100%;
+    height: 55px;
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 0 .4rem;
+}
+
+.form__container--input i {
+    color: #acacac;
+    text-align: center;
+    line-height: 55px;
+    font-size: 1.1rem;
+}
+
+.form__input{
+    background: none;
+    outline: none;
+    border: none;
+}
+.form__input:-webkit-autofill:hover,
+.form__input:-webkit-autofill,
+.form__input:-webkit-autofill:focus,
+.form__input:-webkit-autofill:active {
+    transition: "color 9999s ease-out, background-color 9999s ease-out";
+    transition-delay: 9999s;
+}
+
+.errors{
+    border: .1px solid red;
+}
+.input__text__error::placeholder{
+    color: red;
+}
+.input__error{
+    color: red;
+    font-size: 1rem;
+    font-family: 'Be Vietnam', sans-serif;
+    text-align: start;
+    width: 100%;
+}
+
+.btn--submit--create{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-right: 2rem;
+    margin: 10px 0 ;
+    font-weight: 700;
+    border-radius: 0.9vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    background-color: hsl(209, 75%, 17%);
+    padding-bottom: 0.5rem;
+}
+
+.btn--link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #0B2E4E;
+    margin: 15px 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.link{
+     text-decoration: none;
+     color: #0B2E4E;
+     margin: 15px 0;
+     font-family: 'Be Vietnam', sans-serif;
+}

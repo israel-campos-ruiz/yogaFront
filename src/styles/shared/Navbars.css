@@ -1,0 +1,103 @@
+/* navbar uno el pequeño */
+.navbar{
+    height: 80px;
+    background-clip: padding-box; 
+    position: fixed;
+    z-index: 10;
+    width: 100%;  
+    background-color: rgba(255, 225, 255, 0.3);
+    backdrop-filter: blur(16px);
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    border: solid 1px transparent;
+}
+.navbar__logo{
+    width: 70px;
+    object-fit: contain
+}
+.navbar__flex{
+    margin: auto;
+    width: 76.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar__menu{
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin-left: 1rem;
+}
+
+/* navbar2 el que es toda la pagina */
+.navbar__complete{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #DEDEE0, #E8E8EA, #F9F9F9,#EBEEEF);
+    z-index: 1;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+.navbar__menu-end{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar__items{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.navbar__item__container{
+   padding: 74px 25px;
+         
+}
+
+.list__item{
+    padding: 20px 25px;
+    color: #0B2E4E;
+    text-align: center;
+}
+
+.navbar__link  {
+    color: #0B2E4E;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.navbar__user__name{
+    font-family: 'Arvo', serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #0B2E4E;
+}
+.btn--navbar{
+    background-color: rgb(11, 46, 78);
+    border: none;
+    border-radius: 0.2vw;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    outline: none;
+   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    margin-left: 1rem;
+}

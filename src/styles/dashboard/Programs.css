@@ -1,0 +1,57 @@
+.programs {
+    width: 100%;
+    object-fit:contain;
+    height: auto;
+    font-family: 'Be Vietnam', sans-serif;
+    margin-bottom: 150px;
+   
+  
+}
+.programs__contents{
+    /* margin-left: 165px;  this property goes to cards ok */
+    padding-top: 55px;
+    height: auto;
+    
+}
+.programs__title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f95964;
+    font-weight: 800;
+    padding-bottom: 17px;
+}
+.programs__subTitle{
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    color: #0B2E4E;
+}
+.programs__cards--flex{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: 75%;
+  margin: auto;
+  
+}
+
+@media screen and (max-width: 700px){
+    .programs__contents{
+        margin-right: 45px;
+        padding-top: 66px;
+        height: auto;
+    }
+
+    .programs__cards--flex{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+      }
+}

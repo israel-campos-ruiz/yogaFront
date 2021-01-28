@@ -1,0 +1,44 @@
+thead tr {
+    background: linear-gradient(to right, #DEDEE0, #E8E8EA, #F9F9F9,#EBEEEF)
+}
+.table{
+    width: 75%;
+    margin: auto;
+    overflow-x: auto;
+    margin-bottom: 3rem;
+}
+.table__classes{
+    font-family: 'Arvo', serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__classes td, .table__classes th {
+    border:  1px solid transparent;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color: #0B2E4E;
+}
+
+.table__classes tr:nth-child(even){ background: linear-gradient(to right, #DEDEE0, #E8E8EA, #F9F9F9,#EBEEEF);}
+
+.table__classes td, .table__classes th {
+    border: 1px solid #ECF1F5;   
+}
+
+.table__title{
+    margin: 3rem 0;
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    color: #0B2E4E;
+}
+@media screen and (max-width: 905px){
+    .table{
+     width: 80%;
+     margin: auto;
+     margin-bottom: 3rem;
+    }
+}
