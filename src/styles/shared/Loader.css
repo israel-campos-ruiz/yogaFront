@@ -6,7 +6,7 @@
   z-index: 100;
   top: 50%;
   left: 50%;
-  margin: 0;
+  margin-bottom: 50px;
 }
 .lds-ring div {
   box-sizing: border-box;
