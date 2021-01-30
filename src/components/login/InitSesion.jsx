@@ -46,7 +46,6 @@ const InitSesion = ({ changeToCreateAccount }) => {
   const handleSee = () => setVisibilityPassword(!visibilityPassword);
   return (
     <>
-     
       <form className="form" onSubmit={formik.handleSubmit}>
         <div className="form__container--input">
           <input
@@ -88,6 +87,9 @@ const InitSesion = ({ changeToCreateAccount }) => {
         </p>
         <NavLink className="link" exact to="/inicio">
           Regresa al inicio
+        </NavLink>
+        <NavLink className="link" exact to="/recuperar">
+          ¿Olvidaste tu contraseña?
         </NavLink>
       </form>
     </>

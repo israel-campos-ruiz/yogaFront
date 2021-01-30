@@ -55,3 +55,20 @@ export const DELETE_USER_CLASS = gql`
     }
   }
 `;
+
+export const SEND_EMAIL_RECOVER_PASSWORD = gql`
+  mutation recoverPassword($input: RecoverPasswordInput) {
+    recoverPassword(input: $input) {
+      password
+      email
+    }
+  }
+`;
+
+export const INSERT_NEW_PASSWORD_TOKEN = gql`
+  mutation insertNewPassword($input: InsertNewPasswordInput) {
+    insertNewPassword(input: $input) {
+      message
+    }
+  }
+`;
