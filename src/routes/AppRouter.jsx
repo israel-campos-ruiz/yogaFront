@@ -7,7 +7,7 @@ import PublicRoutes from './PublicRoutes';
 
 const AppRouter = () => {
     return (
-        <Router>        
+        <Router basename={process.env.PUBLIC_URL}>        
             <Switch>
                <Route exact path='/login' component={ LoginRouter }/>
                <Route exact path="/recuperar" component={RecoverPassword} />
