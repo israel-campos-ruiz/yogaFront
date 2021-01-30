@@ -35,3 +35,6 @@ npm start
 ```javascript
 npm run build
 ```
+
+### existe un bug al hacer el deploy del backend con nodemailer y gmail tienes que permitir DisplayUnlockCaptcha para que puedas recuperar tu contraseña
+- [DisplayUnlockCaptcha](https://accounts.google.com/b/0/DisplayUnlockCaptcha)
