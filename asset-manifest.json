@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/yogaFront/static/css/main.341875f1.chunk.css",
-    "main.js": "/yogaFront/static/js/main.451a48e9.chunk.js",
-    "main.js.map": "/yogaFront/static/js/main.451a48e9.chunk.js.map",
+    "main.js": "/yogaFront/static/js/main.c0580f3c.chunk.js",
+    "main.js.map": "/yogaFront/static/js/main.c0580f3c.chunk.js.map",
     "runtime-main.js": "/yogaFront/static/js/runtime-main.910a106d.js",
     "runtime-main.js.map": "/yogaFront/static/js/runtime-main.910a106d.js.map",
-    "static/js/2.a175477a.chunk.js": "/yogaFront/static/js/2.a175477a.chunk.js",
-    "static/js/2.a175477a.chunk.js.map": "/yogaFront/static/js/2.a175477a.chunk.js.map",
+    "static/js/2.3cd02b82.chunk.js": "/yogaFront/static/js/2.3cd02b82.chunk.js",
+    "static/js/2.3cd02b82.chunk.js.map": "/yogaFront/static/js/2.3cd02b82.chunk.js.map",
     "index.html": "/yogaFront/index.html",
     "static/css/main.341875f1.chunk.css.map": "/yogaFront/static/css/main.341875f1.chunk.css.map",
-    "static/js/2.a175477a.chunk.js.LICENSE.txt": "/yogaFront/static/js/2.a175477a.chunk.js.LICENSE.txt",
+    "static/js/2.3cd02b82.chunk.js.LICENSE.txt": "/yogaFront/static/js/2.3cd02b82.chunk.js.LICENSE.txt",
     "static/media/aboutus.6bff2190.png": "/yogaFront/static/media/aboutus.6bff2190.png",
     "static/media/banner.8e4ec76a.jpg": "/yogaFront/static/media/banner.8e4ec76a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.910a106d.js",
-    "static/js/2.a175477a.chunk.js",
+    "static/js/2.3cd02b82.chunk.js",
     "static/css/main.341875f1.chunk.css",
-    "static/js/main.451a48e9.chunk.js"
+    "static/js/main.c0580f3c.chunk.js"
   ]
 }
